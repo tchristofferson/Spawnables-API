@@ -3,7 +3,7 @@ package com.thedasmc.spawnables;
 import org.bukkit.Location;
 import org.bukkit.Particle;
 
-public class SpawnableParticle extends Spawnable {
+public class SpawnableParticle implements Spawnable {
 
     public final Particle particle;
     public final int count;

@@ -4,7 +4,7 @@ import org.bukkit.Location;
 import org.bukkit.entity.EntityType;
 import org.bukkit.util.Vector;
 
-public class SpawnableEntity extends Spawnable {
+public class SpawnableEntity implements Spawnable {
 
     public final EntityType entityType;
     public final int count;

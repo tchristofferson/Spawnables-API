@@ -2,7 +2,7 @@ package com.thedasmc.spawnables;
 
 import org.bukkit.Location;
 
-public class SpawnableExplosion extends Spawnable {
+public class SpawnableExplosion implements Spawnable {
 
     public final float power;
     public final boolean setFire;
